@@ -1,4 +1,4 @@
-参照：paiza C162
+概要
 index++ とは
 *後置インクリメント*と呼ばれるもの。
 `index` 変数は、新しい配列 `shuffled` にカードを順番に配置する際の「現在の挿入位置」を管理するための変数。
@@ -29,3 +29,5 @@ shuffled[index++] = cards[i];
 cards = shuffled;
 }
 ```
+
+参照：paiza C162

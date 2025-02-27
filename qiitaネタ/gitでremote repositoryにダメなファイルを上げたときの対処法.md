@@ -1,0 +1,2 @@
+git rebaseの件ね
+一応メモはobsidian2にやった
