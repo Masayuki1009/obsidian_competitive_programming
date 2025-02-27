@@ -10,4 +10,5 @@
 .DS_Store
 
 .lh
-
+#Do not push Qs
+/question_archive

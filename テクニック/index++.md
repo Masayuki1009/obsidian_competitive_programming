@@ -1,5 +1,5 @@
 参照：paiza C162
-index++とは
+index++ とは
 *後置インクリメント*と呼ばれるもの。
 `index` 変数は、新しい配列 `shuffled` にカードを順番に配置する際の「現在の挿入位置」を管理するための変数。
 
@@ -20,9 +20,9 @@ int index = 0;
 // 前半と後半を交互に入れる
 
 for (int i = 0; i < mid; i++) {
-// 現在の index (例: 0) にカードを配置し、index を 1 にする
+// 現在の index (例：0) にカードを配置し、index を 1 にする
 shuffled[index++] = cards[mid + i];
-// 次の位置 (例: 1) にカードを配置し、index を 2 にする
+// 次の位置 (例：1) にカードを配置し、index を 2 にする
 shuffled[index++] = cards[i]; 
 }
 // シャッフル結果を更新
